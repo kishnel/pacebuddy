@@ -11,7 +11,7 @@
         <header>
             <h1><span class="app-name">Pace Buddy</span></h1>
             <p>Privacy Policy</p>
-            <p class="last-updated">Last updated: August 22, 2026</p>
+            <p class="last-updated">Last updated: September 27, 2026</p>
         </header>
 
         <section>
@@ -27,22 +27,23 @@
         <section>
             <h2>2. Health Data</h2>
             <p>During a run the watch app reads your <strong>heart rate</strong> and <strong>distance</strong> to guide your pace, and saves each run to Apple Health as a <strong>workout</strong> — with its <strong>route</strong> and an <strong>effort score</strong>.</p>
-            <p>This data lives in your Health store on your device. It is <strong>not sent off your device</strong> and is <strong>not shared</strong> with us or anyone else. You control Health access in the Health app and can turn it off at any time.</p>
+            <p>The iPhone app reads the runs in Health, and their routes, to mark which days of your plan are done and to show each run on a map.</p>
+            <p>This data lives in your Health store. It is <strong>not shared</strong> with us or anyone else and is never stored off your device. The one exception is the weather for a past run (see <em>Weather</em> below): to fetch it, that run's starting location and time are sent to Apple. You control Health access in the Health app and can turn it off at any time.</p>
         </section>
 
         <section>
             <h2>3. Location</h2>
-            <p>The watch app records your <strong>route</strong> during a run so the saved workout shows where you went. Location is optional — if you deny it, the run works normally, just without a route map. The <strong>iPhone app never reads your location.</strong></p>
+            <p>The watch app records your <strong>route</strong> during a run so the saved workout shows where you went. Location is optional — if you deny it, the run works normally, just without a route map. The <strong>iPhone app never asks for your location</strong>; the only routes it sees are the ones in Health, described above.</p>
         </section>
 
         <section>
-            <h2>4. Importing a Plan</h2>
-            <p>If you import an existing training plan — by pasting text, or from a file, PDF, or photo — the plan text is sent to <strong>Apple's Private Cloud Compute</strong> to be read into a structured plan. This uses Apple's own foundation models; there is no third-party service and no API key. The plan text is <strong>not retained</strong> after the import, and every imported plan is shown to you for review before it is saved. Importing needs a network connection; everything during a run works offline.</p>
+            <h2>4. Calendar</h2>
+            <p>If you choose <strong>Export to Calendar</strong>, Pace Buddy creates a calendar of its own, named after your plan, and adds the plan's workouts to it. It asks for full calendar access so that exporting again after the plan changes can update and remove those events. It only reads and writes events in that calendar, never your other calendars, and nothing leaves your device beyond your own calendar sync. Calendar access is optional.</p>
         </section>
 
         <section>
             <h2>5. Weather</h2>
-            <p>When you view a past run, the app may show the weather at the time and place of that run. To fetch it, the run's location and time are sent to <strong>Apple's WeatherKit</strong>. Nothing is retained off your device. Apple Weather is credited on any screen that shows it.</p>
+            <p>When you view a past run, the app may show the weather at the time and place of that run. To fetch it, the run's starting location and time are sent to <strong>Apple's WeatherKit</strong>. Nothing is retained off your device; only the temperature and humidity are kept, on your device. Apple Weather is credited on any screen that shows it.</p>
         </section>
 
         <section>
